@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="codeBreakerTest" project="Calculadora" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="codeBreakerTest" time="0.012" uniqueid="[engine:junit-jupiter]/[class:codeBreakerTest]">
+    <testcase name="todosPasan" classname="codeBreakerTest" time="0.012" displayname="todosPasan()" uniqueid="[engine:junit-jupiter]/[class:codeBreakerTest]/[method:todosPasan()]"/>
+  </testsuite>
+</testrun>

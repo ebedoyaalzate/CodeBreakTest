@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Rerun codeBreakerTest" project="Calculadora" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="codeBreakerTest" time="0.017" uniqueid="[engine:junit-jupiter]/[class:codeBreakerTest]">
+    <testcase name="adivinarTresPrimerosBuenos" classname="codeBreakerTest" time="0.009" displayname="adivinarTresPrimerosBuenos()" uniqueid="[engine:junit-jupiter]/[class:codeBreakerTest]/[method:adivinarTresPrimerosBuenos()]"/>
+    <testcase name="adivinarDosPrimerosBuenos" classname="codeBreakerTest" time="0.001" displayname="adivinarDosPrimerosBuenos()" uniqueid="[engine:junit-jupiter]/[class:codeBreakerTest]/[method:adivinarDosPrimerosBuenos()]"/>
+    <testcase name="adivinarTodosPasan" classname="codeBreakerTest" time="0.001" displayname="adivinarTodosPasan()" uniqueid="[engine:junit-jupiter]/[class:codeBreakerTest]/[method:adivinarTodosPasan()]"/>
+    <testcase name="adivinarPrimeroBueno" classname="codeBreakerTest" time="0.006" displayname="adivinarPrimeroBueno()" uniqueid="[engine:junit-jupiter]/[class:codeBreakerTest]/[method:adivinarPrimeroBueno()]"/>
+  </testsuite>
+</testrun>

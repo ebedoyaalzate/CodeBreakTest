@@ -1,0 +1,65 @@
+import java.util.Random;
+
+public class codeBreaker {
+	 Random ran = new Random();
+	 int r;	 
+	private static final String number = "1234";
+	 
+	public codeBreaker() {
+		r= ran.nextInt((10000 - 1000) + 1) + 1000;
+	}
+	
+	public String adivinar(String numberToCompare) {
+		
+		String response ="";
+		
+		for (int i =0; i< 4; i++) {
+			if(numberToCompare.charAt(i)==number.charAt(i)) {
+				response+= "X";
+			}	
+		}		
+		return response;
+	}
+	
+	
+	
+	
+//	public String adivininar() {
+//		
+//		Scanner teclado = new Scanner(System.in);
+//		
+//		String res = JOptionPane.showInputDialog(null, "Introduzcalo");
+//		String response;
+//		
+//		
+//		while (res != null) {    
+//			response = "";
+//			
+//			String numOrigi =Integer.toString(r);
+//			
+//			for (int i =0; i< 4; i++) {
+//				for (int j =0; j< 4; j++) {
+//					if(numOrigi.charAt(i)== res.charAt(j)) {
+//						if(i == j) {
+//							response.concat("X");
+//						} else {
+//							response.concat("_");
+//						}
+//					}
+//					
+//				}
+//				
+//			}
+//		
+//			res = JOptionPane.showInputDialog(null, "Introduzcalo");
+//        
+//			
+//			if (response.equals("XXXX")) {
+//				return response;
+//			}
+//		}
+//	}
+//	return response;
+	
+	
+}

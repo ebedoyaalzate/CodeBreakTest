@@ -1,0 +1,29 @@
+import java.util.Random;
+import java.util.Scanner;
+
+public class codeBreaker {
+	 Random ran = new Random();
+	 int r;	 
+	
+	public codeBreaker() {
+		r= ran.nextInt((10000 - 1000) + 1) + 1000;
+	}
+	
+	public String adivininar() {
+		
+		Scanner teclado = new Scanner(System.in);
+		
+		
+		
+        System.out.print("Introduzca numeri: "+"\n");
+        String numero = teclado.nextLine();
+        System.out.print(numero);
+        
+        return "a";
+        
+        
+		
+	}
+	
+	
+}

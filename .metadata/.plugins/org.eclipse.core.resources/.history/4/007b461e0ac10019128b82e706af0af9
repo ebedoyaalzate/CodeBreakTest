@@ -1,0 +1,63 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class codeBreakerTest {
+	
+	@Test
+	void adivinarTodosPasan() {
+		codeBreaker codeBreaker = new codeBreaker();
+		String respuesta = codeBreaker.adivinar("1234");
+		assertEquals("XXXX", respuesta);
+	}
+	
+	@Test
+	void adivinarPrimeroBueno() {
+		codeBreaker codeBreaker = new codeBreaker();
+		String respuesta = codeBreaker.adivinar("1000");
+		assertEquals("X", respuesta);
+	}
+	
+	@Test
+	void adivinarDosPrimerosBuenos() {
+		codeBreaker codeBreaker = new codeBreaker();
+		String respuesta = codeBreaker.adivinar("1200");
+		assertEquals("XX", respuesta);
+	}
+	
+	@Test
+	void adivinarTresPrimerosBuenos() {
+		codeBreaker codeBreaker = new codeBreaker();
+		String respuesta = codeBreaker.adivinar("1230");
+		assertEquals("XXX", respuesta);
+	}
+	
+	@Test
+	void adivinarCuatroBuenos() {
+		codeBreaker codeBreaker = new codeBreaker();
+		String respuesta = codeBreaker.adivinar("1234");
+		assertEquals("XXXX", respuesta);
+	}
+	
+	@Test
+	void adivinarUnaCoincidenciaEnDiferentePosicion() {
+		codeBreaker codeBreaker = new codeBreaker();
+		String respuesta = codeBreaker.adivinar("0100");
+		assertEquals("_", respuesta);
+	}
+	
+	@Test
+	void adivinarDosCoincidenciasEnDiferentePosicion() {
+		codeBreaker codeBreaker = new codeBreaker();
+		String respuesta = codeBreaker.adivinar("0120");
+		assertEquals("__", respuesta);
+	}
+	
+	@Test
+	void adivinarTresCoincidenciasEnDiferentePosicion() {
+		codeBreaker codeBreaker = new codeBreaker();
+		String respuesta = codeBreaker.adivinar("0123");
+		assertEquals("__", respuesta);
+	}
+
+}

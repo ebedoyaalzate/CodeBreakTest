@@ -1,0 +1,33 @@
+import java.util.Random;
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+
+public class codeBreaker {
+	 Random ran = new Random();
+	 int r;	 
+	
+	public codeBreaker() {
+		r= ran.nextInt((10000 - 1000) + 1) + 1000;
+	}
+	
+	public String adivininar() {
+		
+		Scanner teclado = new Scanner(System.in);
+		
+		String res = JOptionPane.showInputDialog(null, "Introduscalo");
+		
+		
+		while (res != null) {
+        
+			
+				res = JOptionPane.showInputDialog(null, "Introduscalo");
+        
+        return "a";
+        
+        
+		
+	}
+	
+	
+}

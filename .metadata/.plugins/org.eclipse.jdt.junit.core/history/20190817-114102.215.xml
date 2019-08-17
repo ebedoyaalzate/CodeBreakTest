@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="codeBreakerTest" project="Calculadora" tests="13" started="13" failures="0" errors="0" ignored="0">
+  <testsuite name="codeBreakerTest" time="0.026" uniqueid="[engine:junit-jupiter]/[class:codeBreakerTest]">
+    <testcase name="adivinarErrorTamano" classname="codeBreakerTest" time="0.009" displayname="adivinarErrorTamano()" uniqueid="[engine:junit-jupiter]/[class:codeBreakerTest]/[method:adivinarErrorTamano()]"/>
+    <testcase name="adivinarTresPrimerosBuenos" classname="codeBreakerTest" time="0.001" displayname="adivinarTresPrimerosBuenos()" uniqueid="[engine:junit-jupiter]/[class:codeBreakerTest]/[method:adivinarTresPrimerosBuenos()]"/>
+    <testcase name="adivinarUnaCoincidenciaEnDiferentePosicion" classname="codeBreakerTest" time="0.001" displayname="adivinarUnaCoincidenciaEnDiferentePosicion()" uniqueid="[engine:junit-jupiter]/[class:codeBreakerTest]/[method:adivinarUnaCoincidenciaEnDiferentePosicion()]"/>
+    <testcase name="adivinarDosPrimerosBuenos" classname="codeBreakerTest" time="0.001" displayname="adivinarDosPrimerosBuenos()" uniqueid="[engine:junit-jupiter]/[class:codeBreakerTest]/[method:adivinarDosPrimerosBuenos()]"/>
+    <testcase name="adivinarCuatroCoincidenciasEnDiferentePosicion" classname="codeBreakerTest" time="0.001" displayname="adivinarCuatroCoincidenciasEnDiferentePosicion()" uniqueid="[engine:junit-jupiter]/[class:codeBreakerTest]/[method:adivinarCuatroCoincidenciasEnDiferentePosicion()]"/>
+    <testcase name="adivinarDosCoincidenciasEnDiferentePosicion" classname="codeBreakerTest" time="0.001" displayname="adivinarDosCoincidenciasEnDiferentePosicion()" uniqueid="[engine:junit-jupiter]/[class:codeBreakerTest]/[method:adivinarDosCoincidenciasEnDiferentePosicion()]"/>
+    <testcase name="adivinarTodosPasan" classname="codeBreakerTest" time="0.001" displayname="adivinarTodosPasan()" uniqueid="[engine:junit-jupiter]/[class:codeBreakerTest]/[method:adivinarTodosPasan()]"/>
+    <testcase name="adivinarPrimeroBueno" classname="codeBreakerTest" time="0.001" displayname="adivinarPrimeroBueno()" uniqueid="[engine:junit-jupiter]/[class:codeBreakerTest]/[method:adivinarPrimeroBueno()]"/>
+    <testcase name="adivinarUnoCoincideOtroEnDiferentePosicion" classname="codeBreakerTest" time="0.001" displayname="adivinarUnoCoincideOtroEnDiferentePosicion()" uniqueid="[engine:junit-jupiter]/[class:codeBreakerTest]/[method:adivinarUnoCoincideOtroEnDiferentePosicion()]"/>
+    <testcase name="adivinarTresCoincidenciasEnDiferentePosicion" classname="codeBreakerTest" time="0.001" displayname="adivinarTresCoincidenciasEnDiferentePosicion()" uniqueid="[engine:junit-jupiter]/[class:codeBreakerTest]/[method:adivinarTresCoincidenciasEnDiferentePosicion()]"/>
+    <testcase name="adivinarDosCoincidenOtroEnDiferentePosicion" classname="codeBreakerTest" time="0.001" displayname="adivinarDosCoincidenOtroEnDiferentePosicion()" uniqueid="[engine:junit-jupiter]/[class:codeBreakerTest]/[method:adivinarDosCoincidenOtroEnDiferentePosicion()]"/>
+    <testcase name="adivinarCuatroBuenos" classname="codeBreakerTest" time="0.001" displayname="adivinarCuatroBuenos()" uniqueid="[engine:junit-jupiter]/[class:codeBreakerTest]/[method:adivinarCuatroBuenos()]"/>
+    <testcase name="adivinarErrorTipoDato" classname="codeBreakerTest" time="0.006" displayname="adivinarErrorTipoDato()" uniqueid="[engine:junit-jupiter]/[class:codeBreakerTest]/[method:adivinarErrorTipoDato()]"/>
+  </testsuite>
+</testrun>

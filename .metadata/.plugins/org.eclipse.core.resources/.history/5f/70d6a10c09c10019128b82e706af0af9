@@ -1,0 +1,29 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class codeBreakerTest {
+	
+	@Test
+	void adivinarTodosPasan() {
+		codeBreaker codeBreaker = new codeBreaker();
+		String respuesta = codeBreaker.adivinar("1234");
+		assertEquals("XXXX", respuesta);
+	}
+	
+	@Test
+	void adivinarPrimeroBueno() {
+		codeBreaker codeBreaker = new codeBreaker();
+		String respuesta = codeBreaker.adivinar("1000");
+		assertEquals("X", respuesta);
+	}
+	
+	@Test
+	void adivinarDosPrimerosBuenos() {
+		codeBreaker codeBreaker = new codeBreaker();
+		String respuesta = codeBreaker.adivinar("1200");
+		assertEquals("XX", respuesta);
+	}
+	
+
+}

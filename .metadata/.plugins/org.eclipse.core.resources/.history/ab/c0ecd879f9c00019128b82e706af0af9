@@ -1,0 +1,16 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class calculadoraTest {
+	
+	@Test
+	void sumaTest() {
+		
+		calculadora c = new calculadora();
+		int r = c.suma(1,2);
+		assert r == 3:String.format("PASS", r);	
+		
+	}
+
+}
